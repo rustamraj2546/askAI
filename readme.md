@@ -1,10 +1,10 @@
-###  initialise the project
+###  initialize the project
 npm init -y
 
-### install gemini ai pakage
+### install gemini ai package
 npm install @google/generative-ai
 
-###  install dotenv pakage 
+###  install dotenv package 
 npm i dotenv
 
 ### store the API_KEY in .env file (environment variable)
