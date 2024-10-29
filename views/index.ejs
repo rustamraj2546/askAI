@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gemini AI demo</title>
+    <link rel="icon" href="../public/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="../public/style.css">
+</head>
+
+<body class="hide-scrollbar">
+    <nav>
+        <!-- Make it responsive -->
+        <div id="logo">
+            <img width="50rem" src="../public/logo.png" alt="logo">
+            <span>askAI</span>
+        </div>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="/about">About</a></li>
+            <li><a href="/contact">Contact</a></li>
+            <li><a href="/feedback">Feedback</a></li>
+            <li><a href="/help">Help</a></li>
+        </ul>
+    </nav>
+    <div class="container">
+        <div class="output hide-scrollbar">
+
+            <div class="loading bg-color invisible">
+                <b>loading...<b>
+            </div>
+        </div>
+
+        <div class="prompt">
+            <div id="textPrompt">Enter your prompt</div>
+            <div>
+                <input id="inptPrompt" name="prompt" type="text" contenteditable="true" role="textbox" spellcheck="true" tabindex="10" data-tab="10" data-lexical-editor="true" aria-required="false" autocomplete="off">
+                <button class="btn">search</button>
+
+            </div>
+        </div>
+
+    </div>
+
+    <script src="../public/script.js"></script>
+</body>
+
+</html>
